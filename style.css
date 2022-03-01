@@ -3,7 +3,7 @@
     padding: 0;
 }
 #header{
-    background-image: url("../images/banner.jpg");
+    background-image: url("./images/banner.jpg");
     height: 930px;
     width: 100%;
     background-position: center;
@@ -218,6 +218,13 @@ nav .nav-item:hover a{
     font-weight: 700;
     font-size: 35px;
     line-height: 50px;
+}
+#university .card{
+    transform: scale(1);
+    transition: .7s;
+}
+#university .card:hover{
+    transform: scale(1.1);
 }
 #university .card .card-body .card-text{
     size: 16px;
