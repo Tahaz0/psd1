@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-image: url("../images/banner.jpg");
+    height: 930px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+nav .nav-item{
+    padding: 0 16px;
+}
+nav .nav-item a{
+    font-size: 16px;
+    color: #5a6e79;
+}
+nav .active a{
+    color: #ffc178 !important;
+}
+nav .nav-item:hover a{
+    border-bottom: 1px solid #ffc178;
+    color: #ffc178 !important;
+    transition: .4s;
+}
+.apply{
+    background-color: #ffffff;
+    border-radius: 35px;
+    margin-left: 28px ;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.075);
+}
+.apply a{
+    color: #ffc178 !important;
+}
+
+
+.banner{
+    padding-top: 115px;
+}
+.banner h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #ffc178;
+}
+.banner p{
+    line-height: 25px;
+    color: #5a6e79;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.banner .btn{
+    color: #ffffff;
+    font-size: 18px;
+    background-color: #ffc178;
+    padding: 12px 30px;
+    border-radius: 25px;
+}
+
+
+/* *******department starts****************** */
+
+#department{
+    background-image: url("/images/department.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 1300px;
+}
+#department .dep-top h3{
+    color: #252c3a;
+    font-size: 38px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+#department .dep-top p{
+    color: #5a6e79;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+#department .dep-top{
+    margin: 0 auto;
+    text-align: center;
+    width: 45%;
+}
+.dep-card{
+    padding-top: 65px;
+}
+.dep-card .card{
+    background-color: #f9703a;
+    text-align: center;
+}
+.dep-card .card-2{
+    background-color: #80be41 !important;
+}
+.dep-card .card-3{
+    background-color: #ffb258;
+}
+.dep-card .card .card-body img{
+    width: 150px;
+    height: 175px;
+    
+}
+.dep-card .card .card-body p{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 25px;
+}
+/* *******department ends****************** */
+
+
+
+/* *******possibilities starts****************** */
+
+
+.possibilities{
+    padding-top: 100px;
+}
+.possibilities .poss-img{
+    width: 425px;
+    height: 425px;
+    border-radius: 50%;
+    border: 12px solid #fdf6ee;
+    z-index: 111;
+    background-color: #ffffff;
+    position: relative;
+   
+}
+.possibilities .poss-img img{
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.possibilities .poss-img .design{
+    background-image: url("/images/design.png");
+    height: 320px;
+    width: 290px;
+    margin-top: 19px;
+    margin-left: -158px;
+    z-index: -1;
+}
+
+.possibilities .poss-text{
+    text-align: left;
+}
+.possibilities .poss-text h1{
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+.possibilities .poss-text p{
+    font-size: 18px;
+    line-height: 26px;
+    font-family: 'Work Sans', sans-serif;
+    color: #5a6e79;
+}
+.possibilities .poss-number{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.possibilities .poss-number .number-body h2 , p{
+    color: #ffba00;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 26px;
+}
+.possibilities .poss-number .number-body h2{
+    font-size: 35px;
+    font-weight: 700;
+}
+.possibilities .poss-number .number-body p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.possibilities .poss-number .body-2 h2 , .body-2 p{
+    color: #ff5f72;
+}
+.possibilities .poss-number .body-3 h2 , .body-3 p{
+    color: #43cb83;
+}
+/* *******possibilities starts****************** */
+
+
+/* ********** universit starts **************** */
+
+.m-university{
+    position: relative;
+}
+.university{
+    background-image: url("/images/uni-bg.png");
+    height: 950px;
+    background-size: cover;
+    width: 500px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.u-top{
+    padding-top: 40px;
+    text-align: center;
+    padding-bottom: 65px;
+}
+.u-top h1{
+    color: #252c3a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+}
+#university .card .card-body .card-text{
+    size: 16px;
+    line-height: 20px;
+    color: #ffc178;
+    border-bottom: 1px solid #ffc178;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+#university .card .card-body .card-text2{
+    size: 12px;
+    color: #5a6e79;
+    font-weight: 300;
+    line-height: 24px;
+}
+#university .card .card-body .new-text{
+    color: #252c3a;
+    border-bottom: none;
+}
+#university .card .card-body .t-bottum{
+    color: #252c3a;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+#university .card{
+    height: 330px;
+    border: none;
+    margin-bottom: 2rem;
+    box-shadow: 0px 0px 18px rgba(0, 0, 0, 0.219);
+}
+
+/* ********** universit ends **************** */
+
+
+
+/***************** footer starts ************* */
+
+#footer{
+    background-color: #252c3a;
+    height: 400px;
+    margin-top: 63px;
+    position: relative;
+}
+#footer .fo-body{
+    padding-top: 75px;
+}
+#footer .fo-body img{
+    height: 45px;
+    width: 175px;
+    color: white;
+}
+.fo-body .up-body .up-body1 p{
+    color: #969595;
+    padding-top: 26px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5a6e79;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.fo-body .up-body .up-body1 ul{
+    float: left; 
+}
+.fo-body .up-body .up-body1 ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 20px;
+    padding: 2px auto;
+}
+.fo-body .up-body .up-body1 ul li a{
+    font-size: 18px;
+    font-size: 18px;
+    color: #4a4a4a;
+    transition: .5s;
+}
+.fo-body .up-body .up-body1 ul li:hover a{
+    color: #0089fd;
+}
+.fo-body .up-body .up-body2 h4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: white;
+    padding-bottom: 41px;
+}
+.fo-body .up-body .up-body2 p{
+    color: #969595;
+    font-size: 14px;
+    line-height: 27px;
+    font-family: 'Roboto', sans-serif;
+}
+.fo-body .up-body .up-body2 p span{
+    color: #6b6b6b;
+    font-size: 12px;
+}
+.fo-body .up-body .form-inline .input-group input{
+    width: 175.4px;
+    border-radius: 0;
+    border: none;
+}
+.fo-body .up-body .form-inline .input-group .input-group-prepend span{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #ffc178;
+  border: none;
+}
+
+
+
+.fo-body .fo-end{
+    background-color: #1d232e;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.fo-body .fo-end p{
+    color: #6b6b6b;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+}
+.fo-body .fo-end ul{
+    text-align: center;
+}
+.fo-body .fo-end ul li{
+    display: inline;
+    color: #6b6b6b;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 50px;
+    margin-left: 22px;
+}
+
+/***************** footer ends   ************* */
